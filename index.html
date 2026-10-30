@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Italia – Digitale Speisekarte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">BELLA <span>ITALIA</span></div>
+    <nav>
+        <a href="#start">Start</a>
+        <a href="#speisekarte">Speisekarte</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+<section class="hero" id="start">
+    <div class="hero-content">
+        <p class="gold">WILLKOMMEN BEI BELLA ITALIA</p>
+        <h1>Ein Stück Italien<br>bei jedem Bissen.</h1>
+        <p>Frische Zutaten. Echter Geschmack. Italienische Leidenschaft.</p>
+        <a href="#speisekarte" class="btn">Speisekarte ansehen</a>
+    </div>
+</section>
+
+<main id="speisekarte">
+    <div class="section-heading">
+        <p class="gold">UNSERE KÜCHE</p>
+        <h2>Unsere Speisekarte</h2>
+        <p>Entdecke unsere italienischen Spezialitäten.</p>
+    </div>
+
+    <div class="category-nav">
+        <a href="#vorspeisen">Vorspeisen</a>
+        <a href="#pizza">Pizza</a>
+        <a href="#pasta">Pasta</a>
+        <a href="#desserts">Desserts</a>
+    </div>
+
+    <section class="menu-section" id="vorspeisen">
+        <h2>Vorspeisen</h2>
+
+        <div class="food-grid">
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=700" alt="Bruschetta">
+                <div class="food-info">
+                    <h3>Bruschetta</h3>
+                    <p>Geröstetes Brot mit Tomaten, Knoblauch und Basilikum.</p>
+                    <strong>6,90 €</strong>
+                </div>
+            </article>
+
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700" alt="Italienischer Salat">
+                <div class="food-info">
+                    <h3>Italienischer Salat</h3>
+                    <p>Frischer Salat mit Tomaten, Gurken und Mozzarella.</p>
+                    <strong>8,90 €</strong>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="pizza">
+        <h2>Pizza</h2>
+
+        <div class="food-grid">
+            <article class="food">
+                <img src="images/pizza.jpg.jpg" alt="Pizza Margherita">
+                <div class="food-info">
+                    <h3>Pizza Margherita</h3>
+                    <p>Tomatensoße, Mozzarella und frisches Basilikum.</p>
+
+                    <button class="choose-size"
+                        data-name="Pizza Margherita"
+                        data-sizes='[
+                            {"label":"Klein (26 cm)","price":"8,90 €"},
+                            {"label":"Mittel (30 cm)","price":"10,90 €"},
+                            {"label":"Groß (32 cm)","price":"12,90 €"}
+                        ]'>
+                        Größe auswählen
+                    </button>
+                </div>
+            </article>
+
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=700" alt="Pizza Salami">
+                <div class="food-info">
+                    <h3>Pizza Salami</h3>
+                    <p>Tomatensoße, Mozzarella und würzige Salami.</p>
+
+                    <button class="choose-size"
+                        data-name="Pizza Salami"
+                        data-sizes='[
+                            {"label":"Klein (26 cm)","price":"10,90 €"},
+                            {"label":"Mittel (30 cm)","price":"12,90 €"},
+                            {"label":"Groß (32 cm)","price":"14,90 €"}
+                        ]'>
+                        Größe auswählen
+                    </button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="pasta">
+        <h2>Pasta</h2>
+
+        <div class="food-grid">
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=700" alt="Spaghetti Bolognese">
+                <div class="food-info">
+                    <h3>Spaghetti Bolognese</h3>
+                    <p>Spaghetti mit hausgemachter Bolognese-Soße.</p>
+                    <strong>12,90 €</strong>
+                </div>
+            </article>
+
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700" alt="Pasta">
+                <div class="food-info">
+                    <h3>Penne Alfredo</h3>
+                    <p>Penne in cremiger Sahnesoße mit Parmesan.</p>
+                    <strong>11,90 €</strong>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="menu-section" id="desserts">
+        <h2>Desserts</h2>
+
+        <div class="food-grid">
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=700" alt="Tiramisu">
+                <div class="food-info">
+                    <h3>Tiramisu</h3>
+                    <p>Klassisches italienisches Dessert mit Kaffee und Mascarpone.</p>
+                    <strong>6,50 €</strong>
+                </div>
+            </article>
+
+            <article class="food">
+                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=700" alt="Eis">
+                <div class="food-info">
+                    <h3>Gemischtes Eis</h3>
+                    <p>Drei Kugeln Eis nach Wahl.</p>
+                    <strong>5,90 €</strong>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer id="kontakt">
+    <h2>BELLA ITALIA</h2>
+    <p>Wir freuen uns auf deinen Besuch!</p>
+    <p>Telefon: 0123 456789</p>
+    <p>Musterstraße 10 · 45879 Gelsenkirchen</p>
+    <p class="copyright">© 2026 Bella Italia</p>
+</footer>
+
+<!-- Fenster zur Auswahl der Pizzagröße -->
+<div class="size-modal" id="sizeModal" aria-hidden="true">
+    <div class="size-modal-content" role="dialog" aria-modal="true">
+        <button class="modal-close" id="closeModal" type="button">&times;</button>
+
+        <p class="gold">DEINE AUSWAHL</p>
+        <h2 id="modalTitle">Pizza</h2>
+
+        <label for="sizeSelect">Größe auswählen</label>
+        <select id="sizeSelect"></select>
+
+        <div class="selected-price">
+            Preis: <strong id="selectedPrice"></strong>
+        </div>
+
+        <button class="modal-done" id="doneModal" type="button">Fertig</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
